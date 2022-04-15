@@ -1,0 +1,40 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_new_database"
+        android:orderInCategory="100"
+        android:title="@string/new_database"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_connect_database"
+        android:orderInCategory="200"
+        android:title="@string/connect_database"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_build_tables"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="@string/build_tables_indexes"/>
+
+    <item
+        android:id="@+id/menu_insert_update_records"
+        android:orderInCategory="400"
+        android:title="@string/insert_update_delete_records"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_insert_update_by_prepared"
+        android:orderInCategory="500"
+        app:showAsAction="never"
+        android:title="@string/insert_update_by_prepared"/>
+
+    <item
+        android:id="@+id/menu_select_records"
+        android:orderInCategory="600"
+        app:showAsAction="never"
+        android:title="@string/select_records"/>
+
+</menu>

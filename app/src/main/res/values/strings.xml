@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SSqlDbDriverTest</string>
+
+    <string name="choose_menu_settings">Choose Menu Settings</string>
+    <string name="new_database">New Database</string>
+    <string name="connect_database">Connect To Database</string>
+    <string name="build_tables_indexes">Build Tables and Indexes</string>
+    <string name="insert_update_delete_records">Insert/Update/Delete Records</string>
+    <string name="insert_update_by_prepared">Insert/Update Records By Prepared</string>
+    <string name="select_records">Select Records</string>
+</resources>

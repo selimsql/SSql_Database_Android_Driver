@@ -1,0 +1,2 @@
+rootProject.name='SSqlDbDriverTest'
+include ':app'
